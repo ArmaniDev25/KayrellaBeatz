@@ -1,0 +1,118 @@
+
+/*------------- NAVIGATION ------------*/
+
+.showcase {
+    background: url("images/hazel-olayres-777295-unsplash.jpg");
+    display: grid;
+    background-size: cover;
+    margin: 20px;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    color: white;
+    
+    
+    
+    
+}
+
+img {
+    background-size: cover;
+    min-height: 100px;
+    display: grid;
+}
+.showcase h1 {
+    text-align: center;
+    margin-top: 20%;
+    font-size: 750%;
+}
+
+.features {
+    text-align: center;
+    background-color: #D88691;
+}
+
+/*--------- INFO ----------*/
+
+.top-container{
+    display: grid;
+    grid-gap: 20px;
+    min-height: 500px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+        'info box-a box-b'
+        'info box-c box-d';
+}
+
+.info {
+    grid-area: info;
+    background: url("images/IMG_0538.jpg");
+    display: grid;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #EAEBED;
+    box-shadow: dimgrey;
+}
+
+.btn {
+    background-color: #D88691 !important;
+    border: none !important;
+}
+.box-a {
+    grid-area: box-a;
+}
+
+.box-b {
+    grid-area: box-b;
+}
+
+.box-c {
+    grid-area: box-c;
+}
+
+.box-d {
+    grid-area: box-d;
+}
+
+/*-------- ABOUT --------*/
+.praise{
+    
+    display: grid;
+    background-size: contain;
+    grid-template: repeat(2,1fr);
+}
+.praise h1 {
+    text-align: center;
+    background-color: #D88691;
+    margin-top: 20px;
+}
+
+.praise p {
+    text-align: center;
+    
+}
+
+div .praise img {
+    
+}
+
+footer {
+    background: #D88691;
+    margin: 2rem;
+    text-align: center;
+    padding: 1rem;
+}
